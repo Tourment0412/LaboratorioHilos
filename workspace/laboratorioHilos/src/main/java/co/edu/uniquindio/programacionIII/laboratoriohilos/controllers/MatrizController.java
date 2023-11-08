@@ -13,7 +13,7 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 
-public class MatrizController extends Thread implements Initializable {
+public class MatrizController implements Initializable {
 
 	@FXML
 	private Pane panel;
@@ -73,7 +73,7 @@ public class MatrizController extends Thread implements Initializable {
 				if(i+j==k) {
 					m[i][j].setBackground(new Background(new BackgroundFill(Color.BLUE, CornerRadii.EMPTY, Insets.EMPTY)));
 					try {
-						Thread.sleep(4000);
+						Thread.sleep(2000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
