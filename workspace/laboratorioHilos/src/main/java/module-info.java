@@ -3,6 +3,7 @@ open module co.edu.uniquindio.programacionIII.laboratoriohilos {
     requires javafx.fxml;
     requires lombok;
 	requires java.desktop;
+	
     
     
    
